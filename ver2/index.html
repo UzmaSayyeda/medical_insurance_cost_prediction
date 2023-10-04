@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cost Prediction</title>
+</head>
+<body>
+    <nav class = "navbar navbar-dark bg-dark">
+        <div class="container-fluid">
+            <span class = "navbar-brand mb-0 h1">ML - Project</span>
+        </div>
+    </nav>
+
+    <div class = "container text-center pt-0">
+        <img src = "cost_prediction.jpg" alt = "Image" height = "250">
+    </div>
+
+    <div class="container text-center pt-2">
+        <h1>Medical Insurance Cost Prediction</h1>
+
+        <form methods =  "post" class="border border-success border-5">
+
+            <div class="grid-container">
+                <div class="grid-item"><label id="form-text">Age:</label></div> <div class="grid-item"><input type="text" name = "age"></div>
+                <div class="grid-item"><label id="form-text">Gender:</label><select class="form-select form-select"></select>
+                <option selected>Select Gender</option>
+                <option value="0">Male</option>
+                <option value ="1">Female</option>
+                </select></div>
+                <div class="grid-item"><label id="form-text">BMI:</label></div> <div class="grid-item"><input type="text" name = "bmi"></div>
+                <div class="grid-item"><label id="form-text">Children:</label></div> <div class="grid-item"><input type="text" name = "children"></div>
+                <div class="grid-item"><label id="form-text">Are you a smoker?:</label><select class="form-select form-select"></select>
+                    <option selected>Select Option</option>
+                    <option value="0">Yes</option>
+                    <option value ="1">No</option>
+                    </select></div>
+                <div class="grid-item"><label id="form-text">Select your region:</label><select class="form-select form-select"></select>
+                    <option selected>Select Option</option>
+                    <option value="0">Southeast</option>
+                    <option value ="1">Southwest</option>
+                    <option value ="2">Northeast</option>
+                    <option value ="3">Northwest</option>
+                    </select></div>
+        </div>
+        </form>
+    </div>
+</body>
+</html>
